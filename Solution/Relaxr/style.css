@@ -1,0 +1,233 @@
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+/* 
+    Design File:
+
+    font-family: "Open Sans", sans-serif;
+    benefits background color: #f0efef
+    yellow: #f9e42e
+    dark blue: #033048
+    light grey: #606161
+    almost black: #121212
+
+    "Relaxr" - Extra bold, 24px
+    "Get piece of mind with a single tap" - Semibold, 24px
+    "Get it Now" - Extra bold, 14px. 5px border radius
+    "Benefits" - Semibold, 20px
+    "The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be." - Light, 13px
+    • Schedule meetings for you
+    • Excel automation to complete your work for you
+    • Responds to emails on your behalf
+    • Does all your work for you with our revolutionary AI technology" - Light, 13px
+
+
+    "“Relaxr changed my life. I’ve been able to travel the world, spend limited time working and my boss keeps thanking me for crushing work.”" - Light Italic, 18px
+    "- Amanda, Intuit " - semibold, 18px
+
+
+    "Sign Up Now!" - extra bold, 12px, 5px border radius
+
+
+    Relaxr - extra bold, 24px
+    "Copyright 2015. Relaxr." - 9px, semibold
+} */
+
+/* to remove the white spaces around the content */
+body {
+    margin: 0;
+}
+
+
+.boat {
+    background: url(images/header_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30%;
+    padding: 10px;
+
+}
+
+h1 {    
+    font-size: 24px;
+    color: white;
+    text-align: left;
+    margin-top: 2%;
+    margin-left: 10%;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    padding: 5% 10%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+#get-it {
+    font-size: 14px;
+    font-family: "Open Sans";
+    font-weight: 800;
+    background-color: #f9e42e;
+    border-radius: 5px;
+    border: none;
+    color: #033048;
+    text-align: center;
+    padding: 1% 5%;
+    white-space: nowrap;
+
+}
+
+.center{
+    margin: 2% 43% 23% 43%;
+
+}
+
+div.description {
+    background-repeat: no-repeat;
+    background-color: #f0efef;
+    height: 25%;
+    padding: 5% 0%;
+
+}
+
+h3 {
+    font-weight: 600;
+    font: 20px ;
+    font-family: "Open Sans";
+    color: #121212;
+    text-align: left;
+    margin-left: 10%;
+
+}
+
+p.perfect-what {
+    font: 13px ;
+    font-family: "Open Sans";
+    text-align: left;
+    margin-left: 10%;
+    padding: 0% 35% 0% 0%;
+    color: #606161;
+    font-weight: 300;
+
+}
+
+div.list {
+    font: 13px ;
+    font-family: "Open Sans";
+    color: black;
+    text-align: left;
+    margin-left: 10%;
+    padding: 0% 45% 0% 0%;
+    list-style-position: inside;
+    color: #606161;
+    font-weight: 300;
+
+}
+
+
+div.motto{
+    background-image: url(images/testimonial_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    height: 10%;
+    padding: 5% 0%;
+
+}
+
+.quote {
+    padding: 0% 25%;
+    text-align: center;
+    font: 18px ;
+    font-family: "Open Sans";
+    font-style: italic;
+    font-weight: 300;
+
+}
+
+.person {
+    text-align: center;
+    font: 18px ;
+    font-family: "Open Sans";
+    font-weight: 600;
+}
+
+.sign-up{
+    background-color: #f9e42e;
+    text-align: center;
+    height: 25%;
+    padding: 1.5% 0%;
+
+
+
+}
+
+#sign-up{
+    background-color: #033048;
+    color: white;
+    padding: 1% 4%;
+    border-radius: 5px;
+    border: none;
+    font-size: 12px;
+    font-family: "Open Sans";
+    font-weight: 800;
+
+
+}
+
+footer {
+    background-color:#121212;
+    text-align: center;
+    height: 15%;
+    padding: 1% 0%;
+    
+}
+
+.rel {
+    color: #f9e42e;
+    font-size: 24px;
+    font-weight: 800;
+    vertical-align: top;
+    font-family: "Open Sans";
+
+}
+
+.icons {
+    text-align: center;
+    
+}
+
+.twitter{ 
+    padding-right: 2%;
+    max-width: 4%;
+}
+
+.fb {
+    padding-left: 2%;
+    max-width: 1.5%;
+}
+
+.copy {
+    padding: 3% 0% 1% 0%;
+    font-size: 9px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-weight: 600;
+}
